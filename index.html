@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Crawl TIKI.VN
+	</title>
+	<style> 
+.header {
+  padding: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+input[type=text] {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 4px;
+  text-align: center;
+
+}
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+</style>
+</head>
+<body>
+	<form action="/sendUrl" method="post">
+		<center>
+		 <div class="header">
+		  <h1>
+		  	<img src="https://salt.tikicdn.com/ts/upload/ae/f5/15/2228f38cf84d1b8451bb49e2c4537081.png">
+		  </h1>
+		  
+		</div> 
+		<div><input type="text"  name="url"></div>
+		<div><button type="submit">Crawl</button></div>
+		</center>
+	</form>
+</body>
+</html>
